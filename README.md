@@ -7,18 +7,22 @@ using the Modern Honey Network.
 
 I deployed 4 VM instances on Google Compute Engine running Ubuntu 14.04.  The main instance was
 an admin VM for monitoring, and the other three were the honeypots.
+
 	- Dionaea 
 	- Snort
 	- Suricata
 	
 Issues Encountered
+
 	- I had a few small issues getting everything installed properly.  I did find that the GUI
 	  for the Compute engine was much easier than the command line, but that was expected from 
 	  me because I do not have a lot of command line experience. 
 	  
 Summary of the Data
+
 	- I had all three honeypots running for a 24 hour period.  The following statistics were retrieved from 
 	  the MHN Server dashboard.
+	  
 		- There were 6,415 attacks over the 24 hour period
 		- The top attacker was using the Onion browser and did not return any location data, but the ip address 
 		  was 10.142.0.2 with 3,360 attacks
