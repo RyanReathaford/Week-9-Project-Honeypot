@@ -1,6 +1,6 @@
 # Project 9 - Honeypots
 
-Time spent: **8** hours spent in total
+Time spent: **10** hours spent in total
 
 > Objective: To deploy several honeypots and monitor the attacks that are used against them
 using the Modern Honey Network.
